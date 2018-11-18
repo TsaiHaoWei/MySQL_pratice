@@ -1,0 +1,12 @@
+
+/*<style type="text/css">*/
+    p{color: green}
+    /* 標籤選擇 */
+    .test{
+          font-size: 20pt;
+          font-family: 標楷體}
+    /* 類別class=""選擇 */
+    #hallo {color: yellow}
+    /*  識別碼id=""選擇 */
+/*</style>
+</head>
