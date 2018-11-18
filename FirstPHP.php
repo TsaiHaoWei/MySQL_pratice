@@ -77,4 +77,5 @@ $length = count($seasons);
     // code...
     echo "$seasons[$i]<br>";
   }
+
 ?>
