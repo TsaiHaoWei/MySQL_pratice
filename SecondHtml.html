@@ -8,16 +8,17 @@
     <link rel="stylesheet" type="text/css" href="CSS/CSSFromDemo.css">
     <style type="text/css">
       div{marign:5px 0px}/*上下邊界5px 左右邊界0*/
-    .title{width:33%}
+    .title{ height:33%} /*類別控制*/
 
       .cell{ width:50%;font-size:0.8em;float:left}
       .clear{clear:both}
       .cover{width:50%;float:left}
 
       @media(max-width:640px){.cover{width:50%}}
-      @media(min-width:1024px){.cover{width:25%}
-
-      #buttom{font-size:0.7em}
+      /*在(max-width:640px)以下做{.cover{width:50%}}*/
+      @media(min-width:1024px){.cover{width:25%}}
+      /*在(min-width:1024px)以上做{.cover{width:25%}}*/
+      #buttom{font-size:0.7em} /*ID控制*/
       </div>
 
     </style>
@@ -25,8 +26,8 @@
   <body>
     <!--第一區 標頭炫眼-->
     <div>
-      <img class="title" src="img/Logo.png" alt="Top Logo">
-      <img  src="img/Basket.gif" alt="Banner">
+      <img src="img/Logo.png" alt="Top Logo">
+      <img class="title" src="img/Basket.gif" alt="Banner">
       <!--鞋子展示-->
     </div>
     <div>
